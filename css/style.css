@@ -123,8 +123,8 @@ height: 21px;
     flex-wrap: wrap;
 }
 .titleImage{
-    background-image: url(../images/DOI.png);
-    background-size: cover;
+    background-image: url(../images/roomieHero.png);
+    background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 30px;
     width: 70%;
