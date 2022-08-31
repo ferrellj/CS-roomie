@@ -152,6 +152,9 @@ height: 21px;
 #ideation{
     margin-left: 15%;
 }
+#ideation2{
+  margin-left: 15%;
+}
 #testing{
     margin-left: 15%;
 }
@@ -181,7 +184,11 @@ height: 21px;
 
 }
 
-
+.prototype{
+  width: 82%;
+  height:500px;
+  background-image: url(../images/hifi.png);
+}
 .bodyText1 {
     margin-top: 3%;
     margin-bottom: 3%;
