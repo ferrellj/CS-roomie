@@ -162,6 +162,9 @@ height: 21px;
   margin-left: 15%;
 }
 
+.conclusionText{
+  margin-bottom: 15%;
+}
 .csContainer p{
     margin: 0em;
     font-size: 16pt;
