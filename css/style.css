@@ -227,8 +227,9 @@ footer{
     align-items: center;
     margin-top: 15%;
     justify-content: space-evenly;
- 
+    padding: 5%;
   }
+
  
 .footerLinks{
   display: flex;
@@ -236,15 +237,8 @@ footer{
 }
 .footerLinks a{
   margin-bottom: 14px;
-  color: black;
-  text-decoration: none;
 }
 
-.footerLinks a:hover{
-  font-weight: 700;
-  text-decoration: none;
-  color: black;
-}
 .footerContent p {
   margin:0;
 }
