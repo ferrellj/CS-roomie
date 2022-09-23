@@ -14,7 +14,7 @@
       <nav class="navbar">
         <div class="brand-title" ><a href="https://ferrellj.github.io/Justine-Ferrell/">
           <img src="images/Logo.png"></img></a></div>
-
+          <h1 class="cs_title">roomie Mobile App</h1>
 
         <a href="#" class="toggle-button">
           <span class="bar"></span>
@@ -32,7 +32,6 @@
         </div>
       </nav>
       
-      <h1 class="cs_title">roomie Mobile App</h1>
 
       <div class="csContainer">
         <img src="images\roomieHero.png" class="titleImage"></img>
@@ -241,9 +240,8 @@
               </section>
             </div>
             
-<div class="return">
-            <a id="returnLink" href="javascript:void(0)">BACK TO TOP</a>
-          </div>
+            <button id="backTotop">BACK TO TOP</button>
+
      
           <footer>
             <div class="footerContent">
@@ -259,18 +257,10 @@
               </div>
             </div>
           </footer>
-          
+
         <script>
 
-let returnLink = document.querySelector("#returnLink");
-let navbar = document.querySelector(".navbar");
 
-returnLink.addEventListener("click",navigateReturn,false);
-function navigateReturn(e){
-  navbar.scrollIntoView({
-    behavior:"smooth"
-  });
-}
 
 let backgroundLink = document.querySelector("#backgroundLink");
 let background = document.querySelector("#background");
@@ -328,6 +318,16 @@ const navbarLinks = document.getElementsByClassName('navLinks')[0]
 togglebutton.addEventListener('click',()=> {
   navbarLinks.classList.toggle('active')
 })
+
+let backTotop = document.querySelector("#backTotop");
+let titleImage = document.querySelector(".titleImage");
+
+backTotop.addEventListener("click", navigateTitle,false);
+function navigateTitle(e){
+  titleImage.scrollIntoView({
+    behavior:"smooth"
+  });
+}
                 </script>
       </body>
     </html>

@@ -33,6 +33,7 @@ a:hover{
 
 .navbar{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
@@ -119,9 +120,19 @@ height: 21px;
   display: flex;
 }
 
+.titleImage{
+  margin-top: 40%!important;
+  }
 .cs_title{
-margin-top: 30%!important;
+  text-align: center;
+  padding: 2%!important;
 }
+}
+
+@media (max-width: 800px) {
+  .titleImage{
+    margin-top: 20%;
+    }
 }
 /*CASE STUDY CARDS*/
 
@@ -135,13 +146,11 @@ margin-top: 30%!important;
     justify-content: center;
 }
 .cs_title{
-    margin-top: 7%;
-    margin-bottom: 30px;
-    align-items: center;
+    margin-top: -1%;
     text-align: center;
-    flex-wrap: wrap;
 }
 .titleImage{
+  margin-top: 7%;
     margin-bottom: 30px;
     width: 70%;
     height: auto;
@@ -211,9 +220,17 @@ margin-top: 30%!important;
     margin-top: 3%;
 }
 
-.return{
+button{
   float: right;
-  margin-right: 16%;
+  background-color: #a66c4b;
+  border-style:hidden;
+  font-family: roboto, sans-serif;
+  border-radius: 10PX;
+  margin-right: 15%!important;
+}
+button:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
 }
 
 /*footer*/
