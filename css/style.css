@@ -93,7 +93,23 @@ height: 21px;
   border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1280px) {
+  h1{
+    font-size: 20pt!important;
+    font-weight: 800;
+  }
+  a{font-size: 12pt;}
+    }
+    @media (min-width: 1000px) {
+      h1{
+        font-size: 20pt!important;
+        font-weight: 800;
+      }
+      a{font-size: 12pt;}
+        }
+
+@media (max-width: 1000px) {
+
 
   h1{
     font-size: 18pt!important;
@@ -146,7 +162,7 @@ height: 21px;
 }
 
 .titleImage{
-  margin-top: 40%!important;
+  margin-top: 20%!important;
   }
 .cs_title{
   text-align: center;
@@ -156,7 +172,7 @@ height: 21px;
 
 @media (max-width: 800px) {
   .titleImage{
-    margin-top: 20%;
+    margin-top: 10%;
     }
 }
 /*CASE STUDY CARDS*/
