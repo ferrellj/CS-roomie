@@ -62,12 +62,18 @@ a:hover{
 }
 .navLinks li a:hover{
   font-weight: 800;
-  text-decoration: underline;
+  background-color:#D4D4D4;
 }
-
+.navLinks li a:focus{
+  font-weight: 800;
+  background-color:#D4D4D4;
+  transform: scale(.7);
+  text-decoration: none;
+}
 .navLinks li a:active{
   font-weight: 800;
-  text-decoration: underline;
+  background-color:#D4D4D4;
+  text-decoration: none;
 }
 /*toggle*/
 .toggle-button{
@@ -242,14 +248,27 @@ height: 21px;
 button{
   float: right;
   background-color: #a66c4b;
+  color: white;
   border-style:hidden;
+  border-color: transparent;
   font-family: roboto, sans-serif;
   border-radius: 10PX;
   margin-right: 15%!important;
 }
 button:hover{
+  font-weight: 700;
+  border-style:hidden;
+  border-color: transparent;
+}
+button:focus{
+  font-weight: 700;
+  border-style:hidden;
+  border-color: transparent!important;
+}
+button:active{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
+  transform: scale(1.2);
+  border-color: transparent!important;
 }
 
 /*footer*/
