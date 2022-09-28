@@ -26,7 +26,6 @@ a:link{
 }
 a:hover{
   font-weight: 800;
-  text-decoration: underline!important;
   font-family: roboto, sans-serif;
 
 }
@@ -308,6 +307,14 @@ footer{
 }
 .footerLinks a{
   margin-bottom: 14px;
+  font-weight: 400;
+  color: black!important;
+}
+.footerLinks a:hover{
+  margin-bottom: 14px;
+  color: black!important;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .footerContent p {
