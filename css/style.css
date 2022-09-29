@@ -5,9 +5,7 @@ body{
   color: black;
   font-family: roboto, sans-serif;
 }
-p{
-  padding: %;
-}
+
 h1{font-size: 1.6em; line-height: calc(30px + 1vw);}
 h2{font-size: 1.4em;line-height: calc(26px + 1vw);}
 h3{font-size: 1.2em;line-height: calc(24px + 1vw);}
@@ -33,6 +31,12 @@ a:link{
   text-decoration: none;
   font-weight: 600;
 }
+
+a:link{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
 a:hover{
   font-weight: 800;
   text-decoration: underline;
@@ -43,19 +47,19 @@ a:active {
 
 .navbar{
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  text-align: center;
   justify-content: space-between;
   background-color: #ffffff;
   color: black;
-  position: fixed!important;
+  position: fixed;
   width: 100%;
   top: 0;
-  z-index: 10000;
+  margin-bottom: 10%;
 }
 .brand-title{
   margin:.5rem;
 }
+
 .navLinks ul{
   display: flex;
   margin: o;
@@ -143,7 +147,7 @@ height: 21px;
 }
 
 .titleImage{
-  margin-top: 20%!important;
+  margin-top: 5%!important;
   }
 .cs_title{
   text-align: center;
@@ -157,7 +161,7 @@ height: 21px;
    margin-left: 30%!important;
    }
   .titleImage{
-    margin-top: 10%;
+    margin-top: 5%;
     }
 }
 /*CASE STUDY CARDS*/
